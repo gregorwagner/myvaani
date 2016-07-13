@@ -1,2 +1,2 @@
 # myvaani
-ivaani scripts
+iivaani scripts
