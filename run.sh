@@ -6,16 +6,16 @@ echo 'downloaded'
 sudo dpkg -i node_latest_armhf.deb
 rm node_latest_armhf.deb
 
-# wget https://cmake.org/files/v3.4/cmake-3.4.1.tar.gz &
-#wait
-#tar -xvzf cmake-3.4.1.tar.gz
-#cd cmake-3.4.1
-#sudo ./bootstrap
-#sudo make
-#sudo make install
+wget https://cmake.org/files/v3.4/cmake-3.4.1.tar.gz &
+wait
+tar -xvzf cmake-3.4.1.tar.gz
+cd cmake-3.4.1
+sudo ./bootstrap
+sudo make
+sudo make install
 
-#sudo npm install -g cmake-js
-#cd ..
+sudo npm install -g cmake-js
+cd ..
 
 git clone https://github.com/swig/swig.git
 cd swig
