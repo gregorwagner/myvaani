@@ -46,7 +46,7 @@ cd node-pocketsphinx
 npm install
 cd ..
 
-git clone https://github.com/moyilla/vaani.client
+git clone https://github.com/mozilla/vaani.client
 cd vaani.client
 npm install
 cd ..
