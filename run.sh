@@ -43,7 +43,9 @@ cd ..
 
 git clone http://github.com/cmusphinx/node-pocketsphinx
 cd node-pocketsphinx
-npm install
+#ugly!
+sudo chmod 777 /root
+sudo npm install -g
 cd ..
 
 git clone https://github.com/mozilla/vaani.client
